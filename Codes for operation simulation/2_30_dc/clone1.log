@@ -1,0 +1,1040 @@
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:44:49 2019
+
+
+Primal crossover.
+  Primal:  Fixing 14949 variables.
+    14948 PMoves:  Infeasibility 8.97547078e-004  Objective 2.64614875e+006
+    12683 PMoves:  Infeasibility 7.70604168e-004  Objective 2.64614873e+006
+    11057 PMoves:  Infeasibility 7.75993368e-004  Objective 2.64614868e+006
+     9401 PMoves:  Infeasibility 7.78800169e-004  Objective 2.64614872e+006
+     7851 PMoves:  Infeasibility 7.82327603e-004  Objective 2.64614870e+006
+     6894 PMoves:  Infeasibility 6.37004297e-004  Objective 2.64614865e+006
+     5987 PMoves:  Infeasibility 4.91938047e-004  Objective 2.64614855e+006
+     5088 PMoves:  Infeasibility 3.80998865e-004  Objective 2.64614852e+006
+     4051 PMoves:  Infeasibility 7.40901681e-005  Objective 2.64614860e+006
+     3353 PMoves:  Infeasibility 3.63592086e-005  Objective 2.64614873e+006
+     2607 PMoves:  Infeasibility 3.30456769e-005  Objective 2.64614883e+006
+     1919 PMoves:  Infeasibility 2.80950750e-005  Objective 2.64614851e+006
+     1279 PMoves:  Infeasibility 1.28571927e-005  Objective 2.64614853e+006
+      722 PMoves:  Infeasibility 4.91477143e-006  Objective 2.64614859e+006
+      140 PMoves:  Infeasibility 3.54226260e-007  Objective 2.64614876e+006
+        0 PMoves:  Infeasibility 2.08203177e-011  Objective 2.64614876e+006
+  Primal:  Pushed 3719, exchanged 11230.
+  Dual:  Fixing 38 variables.
+       37 DMoves:  Infeasibility 4.00060118e-007  Objective 2.64614876e+006
+        0 DMoves:  Infeasibility 4.00060118e-007  Objective 2.64614876e+006
+  Dual:  Pushed 13, exchanged 25.
+Using devex.
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:46:06 2019
+
+
+Primal crossover.
+  Primal:  Fixing 15454 variables.
+    15453 PMoves:  Infeasibility 1.72020041e-003  Objective 1.90770582e+006
+    12605 PMoves:  Infeasibility 1.53544266e-003  Objective 1.90768228e+006
+    10865 PMoves:  Infeasibility 1.54644745e-003  Objective 1.90768223e+006
+     9318 PMoves:  Infeasibility 1.54033354e-003  Objective 1.90768215e+006
+     7651 PMoves:  Infeasibility 1.54158381e-003  Objective 1.90768201e+006
+     6630 PMoves:  Infeasibility 1.33750275e-003  Objective 1.90768186e+006
+     5733 PMoves:  Infeasibility 1.18910300e-003  Objective 1.90768180e+006
+     4818 PMoves:  Infeasibility 9.53610724e-004  Objective 1.90768174e+006
+     3883 PMoves:  Infeasibility 8.40575783e-004  Objective 1.90768167e+006
+     3109 PMoves:  Infeasibility 6.66353845e-004  Objective 1.90768196e+006
+     2425 PMoves:  Infeasibility 6.31305440e-004  Objective 1.90768199e+006
+     1742 PMoves:  Infeasibility 6.14171817e-004  Objective 1.90766640e+006
+     1185 PMoves:  Infeasibility 4.94835895e-004  Objective 1.90766603e+006
+      715 PMoves:  Infeasibility 4.41222126e-004  Objective 1.90766649e+006
+      209 PMoves:  Infeasibility 2.46222813e-004  Objective 1.90768263e+006
+        0 PMoves:  Infeasibility 1.93328912e-011  Objective 1.90770601e+006
+  Primal:  Pushed 4947, exchanged 10507.
+  Dual:  Fixing 53 variables.
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:47:29 2019
+
+
+Primal crossover.
+  Primal:  Fixing 11750 variables.
+    11749 PMoves:  Infeasibility 2.57740434e-005  Objective 1.95697638e+006
+    10488 PMoves:  Infeasibility 1.75987140e-005  Objective 1.95697638e+006
+     9287 PMoves:  Infeasibility 1.76129210e-005  Objective 1.95697638e+006
+     8055 PMoves:  Infeasibility 1.76847046e-005  Objective 1.95697638e+006
+     7038 PMoves:  Infeasibility 1.40610882e-005  Objective 1.95697638e+006
+     6181 PMoves:  Infeasibility 7.83169721e-006  Objective 1.95697638e+006
+     5309 PMoves:  Infeasibility 7.39928262e-006  Objective 1.95697638e+006
+     4571 PMoves:  Infeasibility 4.90937607e-006  Objective 1.95697638e+006
+     3741 PMoves:  Infeasibility 4.18122124e-006  Objective 1.95697638e+006
+     2899 PMoves:  Infeasibility 1.69974965e-006  Objective 1.95697638e+006
+     2103 PMoves:  Infeasibility 1.29248652e-006  Objective 1.95697638e+006
+     1564 PMoves:  Infeasibility 1.04612371e-006  Objective 1.95697638e+006
+      959 PMoves:  Infeasibility 7.00371644e-007  Objective 1.95697638e+006
+      391 PMoves:  Infeasibility 1.65118330e-007  Objective 1.95697638e+006
+        0 PMoves:  Infeasibility 4.54792536e-011  Objective 1.95697638e+006
+  Primal:  Pushed 1455, exchanged 10295.
+  Dual:  Fixing 97 variables.
+       96 DMoves:  Infeasibility 1.58229820e-015  Objective 1.95697638e+006
+        0 DMoves:  Infeasibility 1.58229820e-015  Objective 1.95697638e+006
+  Dual:  Pushed 44, exchanged 53.
+Using devex.
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:47:36 2019
+
+
+Primal crossover.
+  Primal:  Fixing 39889 variables.
+    39888 PMoves:  Infeasibility 2.91005817e-003  Objective 1.88659138e+006
+    35036 PMoves:  Infeasibility 2.44752302e-003  Objective 1.88652658e+006
+    29432 PMoves:  Infeasibility 5.22050444e-003  Objective 1.88623177e+006
+    23054 PMoves:  Infeasibility 7.10850676e-003  Objective 1.88607727e+006
+    17120 PMoves:  Infeasibility 9.55766174e-003  Objective 1.88583844e+006
+    14717 PMoves:  Infeasibility 9.57251924e-003  Objective 1.88583833e+006
+    12425 PMoves:  Infeasibility 9.57346869e-003  Objective 1.88583824e+006
+     9877 PMoves:  Infeasibility 9.57682053e-003  Objective 1.88583816e+006
+     8677 PMoves:  Infeasibility 9.36981529e-003  Objective 1.88583545e+006
+     7555 PMoves:  Infeasibility 9.28457423e-003  Objective 1.88583622e+006
+     6320 PMoves:  Infeasibility 9.12184036e-003  Objective 1.88583621e+006
+     5246 PMoves:  Infeasibility 8.79843554e-003  Objective 1.88583586e+006
+     4027 PMoves:  Infeasibility 8.73661955e-003  Objective 1.88583535e+006
+     3148 PMoves:  Infeasibility 8.67895192e-003  Objective 1.88583415e+006
+     2256 PMoves:  Infeasibility 8.45656782e-003  Objective 1.88584978e+006
+     1524 PMoves:  Infeasibility 9.29232096e-003  Objective 1.88575997e+006
+      969 PMoves:  Infeasibility 1.08545633e-002  Objective 1.88560548e+006
+      390 PMoves:  Infeasibility 4.63931673e-003  Objective 1.88620644e+006
+        0 PMoves:  Infeasibility 1.44007099e-003  Objective 1.88650257e+006
+  Primal:  Pushed 23985, exchanged 15904.
+  Dual:  Fixing 70 variables.
+       69 DMoves:  Infeasibility 9.41028190e-001  Objective 1.88653077e+006
+        0 DMoves:  Infeasibility 1.21708303e-001  Objective 1.88653034e+006
+  Dual:  Pushed 57, exchanged 13.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       1886502.059949
+Removing shift (2).
+Iteration:   134    Scaled infeas =             0.000605
+Iteration:   149    Objective     =       1886591.311876
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:48:03 2019
+
+
+Primal crossover.
+  Primal:  Fixing 36124 variables.
+    36123 PMoves:  Infeasibility 5.15325957e-004  Objective 2.11658785e+006
+    31604 PMoves:  Infeasibility 3.73623650e-004  Objective 2.11658053e+006
+    25804 PMoves:  Infeasibility 5.27253892e-004  Objective 2.11656010e+006
+    20780 PMoves:  Infeasibility 4.72205549e-003  Objective 2.11616251e+006
+    16899 PMoves:  Infeasibility 5.84749190e-003  Objective 2.11614165e+006
+    14369 PMoves:  Infeasibility 5.86477371e-003  Objective 2.11614159e+006
+    12122 PMoves:  Infeasibility 5.54698899e-003  Objective 2.11617418e+006
+     9785 PMoves:  Infeasibility 5.57335279e-003  Objective 2.11617409e+006
+     8753 PMoves:  Infeasibility 5.63106092e-003  Objective 2.11616892e+006
+     7674 PMoves:  Infeasibility 5.62226165e-003  Objective 2.11616899e+006
+     6588 PMoves:  Infeasibility 5.63036641e-003  Objective 2.11616804e+006
+     5651 PMoves:  Infeasibility 5.66647721e-003  Objective 2.11616430e+006
+     4576 PMoves:  Infeasibility 5.76045443e-003  Objective 2.11615464e+006
+     3678 PMoves:  Infeasibility 5.77602148e-003  Objective 2.11615328e+006
+     2907 PMoves:  Infeasibility 5.12450410e-003  Objective 2.11621600e+006
+     2102 PMoves:  Infeasibility 4.57002155e-003  Objective 2.11619053e+006
+     1504 PMoves:  Infeasibility 5.93652002e-003  Objective 2.11605526e+006
+      950 PMoves:  Infeasibility 1.80439602e-005  Objective 2.11662621e+006
+      454 PMoves:  Infeasibility 6.16631860e-006  Objective 2.11662419e+006
+        0 PMoves:  Infeasibility 1.54630753e-011  Objective 2.11662205e+006
+  Primal:  Pushed 20193, exchanged 15931.
+  Dual:  Fixing 39 variables.
+       38 DMoves:  Infeasibility 3.63913367e+001  Objective 2.11662215e+006
+        0 DMoves:  Infeasibility 3.17909539e+001  Objective 2.11662213e+006
+  Dual:  Pushed 23, exchanged 16.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       2116622.045406
+
+Iteration log . . .
+Iteration:     1    Objective     =       2116618.741026
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:48:11 2019
+
+
+Primal crossover.
+  Primal:  Fixing 37343 variables.
+    37342 PMoves:  Infeasibility 2.23980050e-004  Objective 2.09721620e+006
+    32310 PMoves:  Infeasibility 3.23395705e-004  Objective 2.09720159e+006
+    26035 PMoves:  Infeasibility 7.62381120e-004  Objective 2.09719290e+006
+    19520 PMoves:  Infeasibility 6.76027784e-003  Objective 2.09693994e+006
+    15931 PMoves:  Infeasibility 9.25052139e-003  Objective 2.09689487e+006
+    13658 PMoves:  Infeasibility 9.25018824e-003  Objective 2.09689504e+006
+    11497 PMoves:  Infeasibility 9.26387507e-003  Objective 2.09689487e+006
+     9526 PMoves:  Infeasibility 9.26656307e-003  Objective 2.09689470e+006
+     8620 PMoves:  Infeasibility 9.26670171e-003  Objective 2.09689470e+006
+     7707 PMoves:  Infeasibility 8.96256753e-003  Objective 2.09640316e+006
+     6667 PMoves:  Infeasibility 8.95834036e-003  Objective 2.09640314e+006
+     5727 PMoves:  Infeasibility 8.96343987e-003  Objective 2.09640313e+006
+     4766 PMoves:  Infeasibility 9.95067187e-003  Objective 2.09630873e+006
+     3736 PMoves:  Infeasibility 7.63675095e-003  Objective 2.09653515e+006
+     2782 PMoves:  Infeasibility 7.64633734e-003  Objective 2.09653302e+006
+     2058 PMoves:  Infeasibility 1.56922991e-003  Objective 2.09712336e+006
+     1488 PMoves:  Infeasibility 1.33038918e-003  Objective 2.09714324e+006
+      929 PMoves:  Infeasibility 1.19566963e-003  Objective 2.09715277e+006
+      345 PMoves:  Infeasibility 1.18279364e-003  Objective 2.09715033e+006
+        0 PMoves:  Infeasibility 1.90998467e-011  Objective 2.09726489e+006
+  Primal:  Pushed 21785, exchanged 15558.
+  Dual:  Fixing 87 variables.
+       86 DMoves:  Infeasibility 7.55954254e+000  Objective 2.09728227e+006
+        0 DMoves:  Infeasibility 7.07619443e+000  Objective 2.09728002e+006
+  Dual:  Pushed 66, exchanged 21.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       2097264.889559
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:48:20 2019
+
+
+Primal crossover.
+  Primal:  Fixing 59552 variables.
+    59551 PMoves:  Infeasibility 2.88227441e-004  Objective 2.29080665e+006
+    54263 PMoves:  Infeasibility 2.62078539e-004  Objective 2.29080657e+006
+    48206 PMoves:  Infeasibility 3.64890564e-003  Objective 2.29048262e+006
+    42382 PMoves:  Infeasibility 9.59425837e-003  Objective 2.28994791e+006
+    36478 PMoves:  Infeasibility 1.71622606e-002  Objective 2.28926862e+006
+    30327 PMoves:  Infeasibility 2.50898601e-002  Objective 2.28860480e+006
+    24320 PMoves:  Infeasibility 2.52550375e-002  Objective 2.28859469e+006
+    19262 PMoves:  Infeasibility 3.18894362e-002  Objective 2.28802555e+006
+    17348 PMoves:  Infeasibility 3.19066940e-002  Objective 2.28802393e+006
+    14982 PMoves:  Infeasibility 3.19302712e-002  Objective 2.28802374e+006
+    12783 PMoves:  Infeasibility 3.19541142e-002  Objective 2.28802289e+006
+    11363 PMoves:  Infeasibility 3.19655069e-002  Objective 2.28802216e+006
+     9991 PMoves:  Infeasibility 3.19642790e-002  Objective 2.28802265e+006
+     8547 PMoves:  Infeasibility 2.97397348e-002  Objective 2.28823771e+006
+     7269 PMoves:  Infeasibility 2.97242187e-002  Objective 2.28823957e+006
+     5927 PMoves:  Infeasibility 2.98723726e-002  Objective 2.28822701e+006
+     4566 PMoves:  Infeasibility 2.23334102e-002  Objective 2.28895778e+006
+     3486 PMoves:  Infeasibility 1.88150081e-002  Objective 2.28929725e+006
+     2664 PMoves:  Infeasibility 1.76011364e-002  Objective 2.28941380e+006
+     1945 PMoves:  Infeasibility 1.92619222e-002  Objective 2.28924938e+006
+     1399 PMoves:  Infeasibility 1.86395581e-002  Objective 2.28930698e+006
+      818 PMoves:  Infeasibility 5.53743447e-003  Objective 2.29057876e+006
+      322 PMoves:  Infeasibility 4.24983489e-003  Objective 2.29069866e+006
+        0 PMoves:  Infeasibility 1.44541365e-003  Objective 2.29096781e+006
+  Primal:  Pushed 37559, exchanged 21992.
+  Dual:  Fixing 70 variables.
+       69 DMoves:  Infeasibility 3.20591533e+002  Objective 2.29074002e+006
+        0 DMoves:  Infeasibility 3.13555341e+002  Objective 2.29074190e+006
+  Dual:  Pushed 35, exchanged 35.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       2290967.807569
+Iteration:     2    Objective     =       2290966.101331
+Removing shift (1).
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:50:53 2019
+
+
+Primal crossover.
+  Primal:  Fixing 13851 variables.
+    13850 PMoves:  Infeasibility 9.79888878e-004  Objective 2.15252764e+006
+    12050 PMoves:  Infeasibility 1.95145885e-003  Objective 2.15239510e+006
+    10496 PMoves:  Infeasibility 1.96043471e-003  Objective 2.15239507e+006
+     8924 PMoves:  Infeasibility 1.96141501e-003  Objective 2.15239497e+006
+     7574 PMoves:  Infeasibility 1.96994106e-003  Objective 2.15239491e+006
+     6729 PMoves:  Infeasibility 1.77961896e-003  Objective 2.15239489e+006
+     5841 PMoves:  Infeasibility 1.59862233e-003  Objective 2.15239497e+006
+     5036 PMoves:  Infeasibility 1.54127229e-003  Objective 2.15239495e+006
+     4160 PMoves:  Infeasibility 1.40945069e-003  Objective 2.15239493e+006
+     3419 PMoves:  Infeasibility 1.40951267e-003  Objective 2.15239504e+006
+     2619 PMoves:  Infeasibility 1.40316294e-003  Objective 2.15239499e+006
+     1936 PMoves:  Infeasibility 1.40081973e-003  Objective 2.15239499e+006
+     1380 PMoves:  Infeasibility 1.38543561e-003  Objective 2.15239504e+006
+      787 PMoves:  Infeasibility 1.37175660e-003  Objective 2.15239517e+006
+      111 PMoves:  Infeasibility 1.34456662e-003  Objective 2.15239698e+006
+        0 PMoves:  Infeasibility 1.35372516e-003  Objective 2.15239585e+006
+  Primal:  Pushed 2988, exchanged 10863.
+  Dual:  Fixing 55 variables.
+       54 DMoves:  Infeasibility 3.08804416e-001  Objective 2.15239585e+006
+        0 DMoves:  Infeasibility 2.61263335e-001  Objective 2.15239585e+006
+  Dual:  Pushed 29, exchanged 26.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       2152395.850787
+Removing shift (1).
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:51:01 2019
+
+
+Primal crossover.
+  Primal:  Fixing 13263 variables.
+    13262 PMoves:  Infeasibility 1.01015742e-003  Objective 1.92448541e+006
+    11593 PMoves:  Infeasibility 6.05551962e-004  Objective 1.92448539e+006
+     9955 PMoves:  Infeasibility 6.08043979e-004  Objective 1.92448536e+006
+     8405 PMoves:  Infeasibility 6.11274536e-004  Objective 1.92448534e+006
+     7279 PMoves:  Infeasibility 5.66866860e-004  Objective 1.92448536e+006
+     6502 PMoves:  Infeasibility 4.48268266e-004  Objective 1.92448531e+006
+     5678 PMoves:  Infeasibility 2.57601697e-004  Objective 1.92448533e+006
+     4950 PMoves:  Infeasibility 2.31710165e-004  Objective 1.92448532e+006
+     4047 PMoves:  Infeasibility 2.74712344e-005  Objective 1.92448533e+006
+     3335 PMoves:  Infeasibility 2.36345207e-005  Objective 1.92448532e+006
+     2594 PMoves:  Infeasibility 2.07239886e-005  Objective 1.92448533e+006
+     1882 PMoves:  Infeasibility 1.61619161e-005  Objective 1.92448532e+006
+     1358 PMoves:  Infeasibility 1.47514067e-005  Objective 1.92448506e+006
+      771 PMoves:  Infeasibility 5.90188640e-006  Objective 1.92448530e+006
+      268 PMoves:  Infeasibility 2.76702829e-006  Objective 1.92448534e+006
+        0 PMoves:  Infeasibility 1.70837298e-011  Objective 1.92448539e+006
+  Primal:  Pushed 2688, exchanged 10575.
+  Dual:  Fixing 61 variables.
+       60 DMoves:  Infeasibility 3.15984601e-002  Objective 1.92448539e+006
+        0 DMoves:  Infeasibility 3.15983752e-002  Objective 1.92448539e+006
+  Dual:  Pushed 40, exchanged 21.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       1924485.388348
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:51:08 2019
+
+
+Primal crossover.
+  Primal:  Fixing 10569 variables.
+    10568 PMoves:  Infeasibility 5.37139676e-004  Objective 2.67863765e+006
+     9421 PMoves:  Infeasibility 3.64891368e-004  Objective 2.67863765e+006
+     8320 PMoves:  Infeasibility 3.09970531e-004  Objective 2.67863765e+006
+     7334 PMoves:  Infeasibility 3.01381294e-004  Objective 2.67863765e+006
+     6544 PMoves:  Infeasibility 2.68213008e-004  Objective 2.67863765e+006
+     5703 PMoves:  Infeasibility 1.81358851e-004  Objective 2.67863764e+006
+     4864 PMoves:  Infeasibility 1.12443060e-004  Objective 2.67863765e+006
+     3934 PMoves:  Infeasibility 8.26341292e-005  Objective 2.67863765e+006
+     3184 PMoves:  Infeasibility 2.65652863e-005  Objective 2.67863764e+006
+     2313 PMoves:  Infeasibility 2.45014346e-005  Objective 2.67863764e+006
+     1640 PMoves:  Infeasibility 2.10058032e-005  Objective 2.67863763e+006
+     1004 PMoves:  Infeasibility 1.74558908e-005  Objective 2.67863764e+006
+      546 PMoves:  Infeasibility 1.53307909e-005  Objective 2.67863761e+006
+        0 PMoves:  Infeasibility 1.36152290e-005  Objective 2.67863765e+006
+  Primal:  Pushed 1084, exchanged 9485.
+  Dual:  Fixing 60 variables.
+       59 DMoves:  Infeasibility 3.98112431e-015  Objective 2.67863765e+006
+        0 DMoves:  Infeasibility 3.98112431e-015  Objective 2.67863765e+006
+  Dual:  Pushed 40, exchanged 20.
+Using devex.
+Removing shift (2).
+
+Iteration log . . .
+Iteration:     1    Scaled infeas =             0.000014
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:51:15 2019
+
+
+Primal crossover.
+  Primal:  Fixing 11654 variables.
+    11653 PMoves:  Infeasibility 1.13278339e-004  Objective 2.92346014e+006
+    10024 PMoves:  Infeasibility 9.75640878e-005  Objective 2.92346014e+006
+     8802 PMoves:  Infeasibility 9.85017089e-005  Objective 2.92346014e+006
+     7631 PMoves:  Infeasibility 9.76628024e-005  Objective 2.92346014e+006
+     6715 PMoves:  Infeasibility 8.61062686e-005  Objective 2.92346014e+006
+     5954 PMoves:  Infeasibility 8.37536764e-005  Objective 2.92346013e+006
+     5000 PMoves:  Infeasibility 7.33126626e-005  Objective 2.92346014e+006
+     4057 PMoves:  Infeasibility 5.95560847e-005  Objective 2.92346014e+006
+     3301 PMoves:  Infeasibility 5.56722291e-005  Objective 2.92346013e+006
+     2659 PMoves:  Infeasibility 5.45309663e-005  Objective 2.92346013e+006
+     2015 PMoves:  Infeasibility 5.23692763e-005  Objective 2.92346014e+006
+     1402 PMoves:  Infeasibility 4.86571268e-005  Objective 2.92346013e+006
+      776 PMoves:  Infeasibility 3.71854485e-005  Objective 2.92345918e+006
+      151 PMoves:  Infeasibility 2.12359639e-005  Objective 2.92345947e+006
+        0 PMoves:  Infeasibility 2.11046149e-005  Objective 2.92345947e+006
+  Primal:  Pushed 1882, exchanged 9772.
+  Dual:  Fixing 52 variables.
+       51 DMoves:  Infeasibility 4.94635593e-012  Objective 2.92345947e+006
+        0 DMoves:  Infeasibility 4.94635593e-012  Objective 2.92345947e+006
+  Dual:  Pushed 40, exchanged 12.
+Using devex.
+Removing shift (1).
+
+Iteration log . . .
+Iteration:     1    Scaled infeas =             0.000000
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:51:21 2019
+
+
+Primal crossover.
+  Primal:  Fixing 15641 variables.
+    15640 PMoves:  Infeasibility 9.80678523e-004  Objective 3.06829771e+006
+    13260 PMoves:  Infeasibility 6.76116615e-004  Objective 3.06829771e+006
+    11500 PMoves:  Infeasibility 6.73554368e-004  Objective 3.06829768e+006
+     9779 PMoves:  Infeasibility 6.74499970e-004  Objective 3.06829766e+006
+     8110 PMoves:  Infeasibility 6.75889361e-004  Objective 3.06829765e+006
+     6980 PMoves:  Infeasibility 5.89106613e-004  Objective 3.06829765e+006
+     5910 PMoves:  Infeasibility 4.57786090e-004  Objective 3.06829770e+006
+     5079 PMoves:  Infeasibility 3.27086581e-004  Objective 3.06829769e+006
+     4060 PMoves:  Infeasibility 1.59767798e-004  Objective 3.06829768e+006
+     3343 PMoves:  Infeasibility 2.18182010e-005  Objective 3.06829759e+006
+     2594 PMoves:  Infeasibility 1.98410121e-005  Objective 3.06829767e+006
+     1959 PMoves:  Infeasibility 6.46380824e-005  Objective 3.06829258e+006
+     1491 PMoves:  Infeasibility 6.14930611e-005  Objective 3.06829261e+006
+     1001 PMoves:  Infeasibility 5.71293307e-005  Objective 3.06829256e+006
+      450 PMoves:  Infeasibility 1.74496381e-006  Objective 3.06829771e+006
+        0 PMoves:  Infeasibility 2.36480141e-011  Objective 3.06829772e+006
+  Primal:  Pushed 4813, exchanged 10828.
+  Dual:  Fixing 55 variables.
+       54 DMoves:  Infeasibility 9.44372209e-007  Objective 3.06829772e+006
+        0 DMoves:  Infeasibility 9.44372209e-007  Objective 3.06829772e+006
+  Dual:  Pushed 44, exchanged 11.
+Using devex.
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:51:36 2019
+
+
+Primal crossover.
+  Primal:  Fixing 57787 variables.
+    57786 PMoves:  Infeasibility 2.88301282e-004  Objective 2.64480546e+006
+    52414 PMoves:  Infeasibility 1.21678658e-002  Objective 2.64380745e+006
+    46369 PMoves:  Infeasibility 1.21776523e-002  Objective 2.64380742e+006
+    39999 PMoves:  Infeasibility 1.57503949e-002  Objective 2.64347661e+006
+    33681 PMoves:  Infeasibility 2.12480321e-002  Objective 2.64304402e+006
+    27790 PMoves:  Infeasibility 2.65695051e-002  Objective 2.64271991e+006
+    21613 PMoves:  Infeasibility 3.11911861e-002  Objective 2.64259243e+006
+    18795 PMoves:  Infeasibility 3.13016323e-002  Objective 2.64258033e+006
+    17119 PMoves:  Infeasibility 3.12870734e-002  Objective 2.64258017e+006
+    15192 PMoves:  Infeasibility 3.12872663e-002  Objective 2.64257989e+006
+    13271 PMoves:  Infeasibility 3.12779412e-002  Objective 2.64257987e+006
+    11643 PMoves:  Infeasibility 3.12799069e-002  Objective 2.64257968e+006
+    10572 PMoves:  Infeasibility 2.92150417e-002  Objective 2.64278153e+006
+    10430 PMoves:  Infeasibility 2.92154676e-002  Objective 2.64278151e+006
+     9548 PMoves:  Infeasibility 2.92283038e-002  Objective 2.64278148e+006
+     8205 PMoves:  Infeasibility 2.59696816e-002  Objective 2.64310065e+006
+     6975 PMoves:  Infeasibility 2.40496032e-002  Objective 2.64328934e+006
+     5820 PMoves:  Infeasibility 2.40714182e-002  Objective 2.64328907e+006
+     4378 PMoves:  Infeasibility 2.35388961e-002  Objective 2.64329096e+006
+     3488 PMoves:  Infeasibility 2.09683253e-002  Objective 2.64353690e+006
+     2750 PMoves:  Infeasibility 2.13014060e-002  Objective 2.64349774e+006
+     1984 PMoves:  Infeasibility 1.98977419e-002  Objective 2.64348311e+006
+     1396 PMoves:  Infeasibility 1.43314646e-002  Objective 2.64402719e+006
+      853 PMoves:  Infeasibility 1.09207271e-003  Objective 2.64530001e+006
+      301 PMoves:  Infeasibility 1.00649916e-004  Objective 2.64538981e+006
+        0 PMoves:  Infeasibility 5.09317033e-011  Objective 2.64539245e+006
+  Primal:  Pushed 35377, exchanged 22410.
+  Dual:  Fixing 62 variables.
+       61 DMoves:  Infeasibility 2.90794695e-001  Objective 2.64506925e+006
+        0 DMoves:  Infeasibility 2.86260462e-001  Objective 2.64507042e+006
+  Dual:  Pushed 47, exchanged 15.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       2645381.559611
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:51:44 2019
+
+
+Primal crossover.
+  Primal:  Fixing 20990 variables.
+    20989 PMoves:  Infeasibility 6.51455103e-004  Objective 1.90971142e+006
+    17781 PMoves:  Infeasibility 2.12146738e-003  Objective 1.90955018e+006
+    14555 PMoves:  Infeasibility 1.92317783e-003  Objective 1.90954328e+006
+    12660 PMoves:  Infeasibility 1.93861011e-003  Objective 1.90954326e+006
+    10671 PMoves:  Infeasibility 1.95594231e-003  Objective 1.90954305e+006
+     8680 PMoves:  Infeasibility 1.95113667e-003  Objective 1.90954289e+006
+     7614 PMoves:  Infeasibility 1.93001259e-003  Objective 1.90954285e+006
+     6673 PMoves:  Infeasibility 1.91906005e-003  Objective 1.90954288e+006
+     5714 PMoves:  Infeasibility 1.84178189e-003  Objective 1.90954299e+006
+     4614 PMoves:  Infeasibility 1.84372453e-003  Objective 1.90954303e+006
+     3583 PMoves:  Infeasibility 1.85132282e-003  Objective 1.90954292e+006
+     2760 PMoves:  Infeasibility 1.87225306e-003  Objective 1.90954179e+006
+     2039 PMoves:  Infeasibility 6.63937488e-004  Objective 1.90965951e+006
+     1508 PMoves:  Infeasibility 5.63387376e-004  Objective 1.90966809e+006
+      939 PMoves:  Infeasibility 5.66640051e-004  Objective 1.90966695e+006
+      412 PMoves:  Infeasibility 7.14146336e-006  Objective 1.90971927e+006
+        0 PMoves:  Infeasibility 2.63776015e-011  Objective 1.90971919e+006
+  Primal:  Pushed 8879, exchanged 12111.
+  Dual:  Fixing 70 variables.
+       69 DMoves:  Infeasibility 5.38289810e+000  Objective 1.90971920e+006
+        0 DMoves:  Infeasibility 4.82609658e+000  Objective 1.90971917e+006
+  Dual:  Pushed 55, exchanged 15.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       1909719.187432
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:52:22 2019
+
+
+Primal crossover.
+  Primal:  Fixing 15825 variables.
+    15824 PMoves:  Infeasibility 9.88705338e-004  Objective 1.95639827e+006
+    14155 PMoves:  Infeasibility 4.08777541e-004  Objective 1.95639826e+006
+    12362 PMoves:  Infeasibility 4.18822171e-004  Objective 1.95639819e+006
+    10492 PMoves:  Infeasibility 4.20295927e-004  Objective 1.95639826e+006
+     8994 PMoves:  Infeasibility 4.25159706e-004  Objective 1.95639817e+006
+     7831 PMoves:  Infeasibility 3.41122240e-004  Objective 1.95639813e+006
+     6808 PMoves:  Infeasibility 1.31570356e-004  Objective 1.95639812e+006
+     5668 PMoves:  Infeasibility 1.13321124e-004  Objective 1.95639812e+006
+     4622 PMoves:  Infeasibility 2.71173561e-005  Objective 1.95639812e+006
+     3811 PMoves:  Infeasibility 2.27070932e-005  Objective 1.95639812e+006
+     3026 PMoves:  Infeasibility 2.29000948e-005  Objective 1.95639812e+006
+     2252 PMoves:  Infeasibility 2.33869452e-005  Objective 1.95639813e+006
+     1588 PMoves:  Infeasibility 1.46967181e-005  Objective 1.95639816e+006
+     1073 PMoves:  Infeasibility 9.29836878e-006  Objective 1.95639823e+006
+      492 PMoves:  Infeasibility 5.63078301e-006  Objective 1.95639828e+006
+        0 PMoves:  Infeasibility 2.87669246e-011  Objective 1.95639826e+006
+  Primal:  Pushed 4195, exchanged 11630.
+  Dual:  Fixing 98 variables.
+       97 DMoves:  Infeasibility 4.48289725e-012  Objective 1.95639826e+006
+        0 DMoves:  Infeasibility 4.48289725e-012  Objective 1.95639826e+006
+  Dual:  Pushed 55, exchanged 43.
+Using devex.
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:52:29 2019
+
+
+Primal crossover.
+  Primal:  Fixing 17662 variables.
+    17661 PMoves:  Infeasibility 1.95784712e-003  Objective 1.91106432e+006
+    14803 PMoves:  Infeasibility 1.23799980e-003  Objective 1.91106426e+006
+    12336 PMoves:  Infeasibility 1.08941168e-003  Objective 1.91106419e+006
+    10226 PMoves:  Infeasibility 1.09332946e-003  Objective 1.91106387e+006
+     8311 PMoves:  Infeasibility 1.07816829e-003  Objective 1.91106394e+006
+     7507 PMoves:  Infeasibility 1.02370911e-003  Objective 1.91106387e+006
+     6668 PMoves:  Infeasibility 9.78650566e-004  Objective 1.91106379e+006
+     5535 PMoves:  Infeasibility 8.35078777e-004  Objective 1.91106372e+006
+     4739 PMoves:  Infeasibility 7.70735470e-004  Objective 1.91106371e+006
+     3893 PMoves:  Infeasibility 6.39005775e-004  Objective 1.91106334e+006
+     3052 PMoves:  Infeasibility 5.72208437e-004  Objective 1.91106338e+006
+     2358 PMoves:  Infeasibility 5.18053738e-004  Objective 1.91106343e+006
+     1741 PMoves:  Infeasibility 7.55441832e-004  Objective 1.91101998e+006
+     1218 PMoves:  Infeasibility 6.89100890e-004  Objective 1.91101941e+006
+      684 PMoves:  Infeasibility 6.04764617e-004  Objective 1.91101960e+006
+      173 PMoves:  Infeasibility 5.36473866e-005  Objective 1.91106444e+006
+        0 PMoves:  Infeasibility 4.87525953e-005  Objective 1.91106447e+006
+  Primal:  Pushed 6385, exchanged 11277.
+  Dual:  Fixing 54 variables.
+Removing shift (1).
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:52:59 2019
+
+
+Primal crossover.
+  Primal:  Fixing 41625 variables.
+    41624 PMoves:  Infeasibility 6.63610414e-004  Objective 2.13811706e+006
+    37652 PMoves:  Infeasibility 5.42277353e-004  Objective 2.13811702e+006
+    32711 PMoves:  Infeasibility 9.24491731e-004  Objective 2.13807659e+006
+    26841 PMoves:  Infeasibility 1.53479927e-003  Objective 2.13802943e+006
+    20995 PMoves:  Infeasibility 5.58774372e-003  Objective 2.13763346e+006
+    17371 PMoves:  Infeasibility 5.99766595e-003  Objective 2.13760771e+006
+    15329 PMoves:  Infeasibility 6.01892362e-003  Objective 2.13760712e+006
+    13823 PMoves:  Infeasibility 5.79270585e-003  Objective 2.13762874e+006
+    12078 PMoves:  Infeasibility 5.71721104e-003  Objective 2.13763614e+006
+    10266 PMoves:  Infeasibility 5.52104326e-003  Objective 2.13765597e+006
+     9226 PMoves:  Infeasibility 5.52751711e-003  Objective 2.13765590e+006
+     8256 PMoves:  Infeasibility 5.60561282e-003  Objective 2.13764908e+006
+     7211 PMoves:  Infeasibility 5.59527198e-003  Objective 2.13765017e+006
+     6045 PMoves:  Infeasibility 5.46607669e-003  Objective 2.13766340e+006
+     5045 PMoves:  Infeasibility 5.56488307e-003  Objective 2.13765584e+006
+     4098 PMoves:  Infeasibility 6.13794942e-003  Objective 2.13760270e+006
+     3421 PMoves:  Infeasibility 6.12456675e-003  Objective 2.13760236e+006
+     2737 PMoves:  Infeasibility 6.10765266e-003  Objective 2.13760140e+006
+     2065 PMoves:  Infeasibility 7.24606658e-003  Objective 2.13759748e+006
+     1639 PMoves:  Infeasibility 5.72294829e-003  Objective 2.13774065e+006
+     1157 PMoves:  Infeasibility 2.37436293e-003  Objective 2.13806090e+006
+      671 PMoves:  Infeasibility 2.06093432e-003  Objective 2.13808990e+006
+      157 PMoves:  Infeasibility 8.85065073e-004  Objective 2.13808954e+006
+        0 PMoves:  Infeasibility 1.63709046e-011  Objective 2.13817396e+006
+  Primal:  Pushed 24131, exchanged 17494.
+  Dual:  Fixing 54 variables.
+       53 DMoves:  Infeasibility 2.06768625e+001  Objective 2.13818083e+006
+        0 DMoves:  Infeasibility 2.04505450e+001  Objective 2.13818048e+006
+  Dual:  Pushed 41, exchanged 13.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       2138173.963765
+
+Iteration log . . .
+Iteration:     1    Objective     =       2138170.598233
+Iteration:   117    Objective     =       2138120.673499
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:55:49 2019
+
+
+Primal crossover.
+  Primal:  Fixing 18641 variables.
+    18640 PMoves:  Infeasibility 1.02197277e-003  Objective 1.99992582e+006
+    15741 PMoves:  Infeasibility 4.13157839e-004  Objective 1.99992582e+006
+    13382 PMoves:  Infeasibility 5.81650089e-005  Objective 1.99992581e+006
+    11632 PMoves:  Infeasibility 6.00720551e-005  Objective 1.99992581e+006
+     9850 PMoves:  Infeasibility 6.10432709e-005  Objective 1.99992580e+006
+     8213 PMoves:  Infeasibility 3.96968071e-005  Objective 1.99992581e+006
+     7344 PMoves:  Infeasibility 3.93148102e-005  Objective 1.99992581e+006
+     6538 PMoves:  Infeasibility 3.13370883e-005  Objective 1.99992580e+006
+     5635 PMoves:  Infeasibility 2.93039401e-005  Objective 1.99992580e+006
+     4685 PMoves:  Infeasibility 2.90170873e-005  Objective 1.99992579e+006
+     3766 PMoves:  Infeasibility 2.06330141e-005  Objective 1.99992574e+006
+     2949 PMoves:  Infeasibility 1.84643103e-005  Objective 1.99992572e+006
+     2083 PMoves:  Infeasibility 1.92739082e-005  Objective 1.99992577e+006
+     1395 PMoves:  Infeasibility 1.33855182e-005  Objective 1.99992560e+006
+      844 PMoves:  Infeasibility 1.57967644e-005  Objective 1.99992487e+006
+      259 PMoves:  Infeasibility 1.45573594e-006  Objective 1.99992587e+006
+        0 PMoves:  Infeasibility 5.51051336e-011  Objective 1.99992582e+006
+  Primal:  Pushed 6749, exchanged 11892.
+  Dual:  Fixing 88 variables.
+       87 DMoves:  Infeasibility 9.95189481e-015  Objective 1.99992582e+006
+        0 DMoves:  Infeasibility 9.95189481e-015  Objective 1.99992582e+006
+  Dual:  Pushed 80, exchanged 8.
+Using devex.
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:56:04 2019
+
+
+Primal crossover.
+  Primal:  Fixing 90736 variables.
+    90735 PMoves:  Infeasibility 1.49861517e+001  Objective 2.34351883e+006
+    89776 PMoves:  Infeasibility 1.36141117e+001  Objective 2.34330619e+006
+    86539 PMoves:  Infeasibility 1.25204978e+001  Objective 2.32621643e+006
+    82602 PMoves:  Infeasibility 1.25015645e+001  Objective 2.30400034e+006
+    78622 PMoves:  Infeasibility 1.17875711e+001  Objective 2.27662229e+006
+    74363 PMoves:  Infeasibility 1.12185942e+001  Objective 2.25096978e+006
+    70459 PMoves:  Infeasibility 1.11432198e+001  Objective 2.22786650e+006
+    66757 PMoves:  Infeasibility 1.11275600e+001  Objective 2.20659153e+006
+    63062 PMoves:  Infeasibility 1.11121735e+001  Objective 2.18477745e+006
+    59034 PMoves:  Infeasibility 1.10772387e+001  Objective 2.15769569e+006
+    54969 PMoves:  Infeasibility 1.10663867e+001  Objective 2.13436553e+006
+    50733 PMoves:  Infeasibility 1.03818510e+001  Objective 2.10963574e+006
+    46338 PMoves:  Infeasibility 1.03678625e+001  Objective 2.08327323e+006
+    42078 PMoves:  Infeasibility 1.03484925e+001  Objective 2.05833614e+006
+    38310 PMoves:  Infeasibility 9.88656060e+000  Objective 2.03708121e+006
+    34320 PMoves:  Infeasibility 9.42305017e+000  Objective 2.00994777e+006
+    30320 PMoves:  Infeasibility 9.38683049e+000  Objective 1.98341873e+006
+    26224 PMoves:  Infeasibility 9.07450207e+000  Objective 1.96036890e+006
+    24346 PMoves:  Infeasibility 9.02530198e+000  Objective 1.95695078e+006
+    22635 PMoves:  Infeasibility 9.02495936e+000  Objective 1.95354752e+006
+    21201 PMoves:  Infeasibility 9.01995133e+000  Objective 1.95125146e+006
+    19642 PMoves:  Infeasibility 9.01161264e+000  Objective 1.94892200e+006
+    17848 PMoves:  Infeasibility 9.00415120e+000  Objective 1.94586955e+006
+    16471 PMoves:  Infeasibility 8.79398488e+000  Objective 1.94309998e+006
+    15755 PMoves:  Infeasibility 8.56541133e+000  Objective 1.94093538e+006
+    14973 PMoves:  Infeasibility 7.42202652e+000  Objective 1.93806108e+006
+    14149 PMoves:  Infeasibility 6.99974102e+000  Objective 1.93558061e+006
+    13328 PMoves:  Infeasibility 6.39169131e+000  Objective 1.93286547e+006
+    12365 PMoves:  Infeasibility 5.84841392e+000  Objective 1.92942578e+006
+    11472 PMoves:  Infeasibility 5.23791569e+000  Objective 1.92676111e+006
+    10592 PMoves:  Infeasibility 4.51823539e+000  Objective 1.92403934e+006
+     9870 PMoves:  Infeasibility 4.13973883e+000  Objective 1.92186999e+006
+     9155 PMoves:  Infeasibility 4.12722642e+000  Objective 1.91931456e+006
+     8388 PMoves:  Infeasibility 3.50854032e+000  Objective 1.91651257e+006
+     7602 PMoves:  Infeasibility 2.65017612e+000  Objective 1.91345684e+006
+     6805 PMoves:  Infeasibility 2.01707187e+000  Objective 1.91084101e+006
+     6028 PMoves:  Infeasibility 1.79053001e+000  Objective 1.90751678e+006
+     5582 PMoves:  Infeasibility 1.77932408e+000  Objective 1.90626710e+006
+     5160 PMoves:  Infeasibility 1.35168557e+000  Objective 1.90179140e+006
+     4736 PMoves:  Infeasibility 1.29936612e+000  Objective 1.90080789e+006
+     4323 PMoves:  Infeasibility 1.30026095e+000  Objective 1.89984234e+006
+     3901 PMoves:  Infeasibility 1.30026095e+000  Objective 1.89909093e+006
+     3484 PMoves:  Infeasibility 1.23105147e+000  Objective 1.89820839e+006
+     3101 PMoves:  Infeasibility 1.14956000e+000  Objective 1.89716153e+006
+     2715 PMoves:  Infeasibility 1.05754761e+000  Objective 1.89615079e+006
+     2309 PMoves:  Infeasibility 1.00279983e+000  Objective 1.89457580e+006
+     1949 PMoves:  Infeasibility 9.98903537e-001  Objective 1.89335209e+006
+     1599 PMoves:  Infeasibility 9.63843121e-001  Objective 1.89246749e+006
+     1212 PMoves:  Infeasibility 9.20101041e-001  Objective 1.89165055e+006
+      801 PMoves:  Infeasibility 9.19835472e-001  Objective 1.89092838e+006
+      395 PMoves:  Infeasibility 9.19805507e-001  Objective 1.89032253e+006
+       16 PMoves:  Infeasibility 9.18793573e-001  Objective 1.88967546e+006
+        0 PMoves:  Infeasibility 9.16648523e-001  Objective 1.88965133e+006
+  Primal:  Pushed 48286, exchanged 42450.
+  Dual:  Fixing 17294 variables.
+    17293 DMoves:  Infeasibility 2.33636092e+007  Objective 9.30150167e+005
+    13698 DMoves:  Infeasibility 1.61917150e+007  Objective 1.15129992e+006
+    11923 DMoves:  Infeasibility 4.97559696e+006  Objective 1.68761411e+006
+     7996 DMoves:  Infeasibility 1.43152573e+006  Objective 1.80873895e+006
+      755 DMoves:  Infeasibility 5.39049965e+005  Objective 1.81331748e+006
+        0 DMoves:  Infeasibility 5.22218064e+005  Objective 1.66184005e+006
+  Dual:  Pushed 14328, exchanged 2966.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       1889651.331268
+Iteration:    97    Objective     =       1888982.897255
+Elapsed time = 13.56 sec. (10569.75 ticks, 97 iterations)
+Iteration:   544    Objective     =       1888587.465453
+Iteration:  1052    Objective     =       1888281.293617
+Iteration:  1591    Objective     =       1886673.904732
+Iteration:  1761    Objective     =       1885328.199360
+Iteration:  1962    Objective     =       1884661.756906
+Iteration:  2090    Objective     =       1884114.720996
+Iteration:  2196    Objective     =       1883533.180323
+Iteration:  2316    Objective     =       1882415.625140
+Iteration:  2455    Objective     =       1882103.614572
+Iteration:  2567    Objective     =       1881323.504126
+Iteration:  2674    Objective     =       1880822.649829
+Iteration:  3047    Objective     =       1880497.308006
+Iteration:  3156    Objective     =       1880111.033181
+Iteration:  3265    Objective     =       1879714.312461
+Iteration:  3373    Objective     =       1879178.725167
+Iteration:  3475    Objective     =       1878840.920907
+Iteration:  3580    Objective     =       1878522.246734
+Iteration:  3682    Objective     =       1878111.671905
+Iteration:  3783    Objective     =       1877674.489434
+Iteration:  3819    Objective     =       1877643.501092
+Iteration:  3919    Objective     =       1877436.838168
+Iteration:  4021    Objective     =       1877111.989878
+Iteration:  4198    Objective     =       1876598.742723
+Iteration:  4298    Objective     =       1876411.693507
+Iteration:  4400    Objective     =       1875818.792217
+Iteration:  4792    Objective     =       1875007.195776
+Iteration:  4893    Objective     =       1874652.888372
+Iteration:  5005    Objective     =       1874431.530070
+Iteration:  5157    Objective     =       1874161.026976
+Iteration:  5259    Objective     =       1874040.952251
+Iteration:  5361    Objective     =       1873876.601175
+Iteration:  5489    Objective     =       1873759.098631
+Iteration:  5597    Objective     =       1873725.586965
+Iteration:  5689    Objective     =       1873644.532675
+Iteration:  5748    Objective     =       1873590.968625
+Iteration:  6138    Objective     =       1873008.433180
+Iteration:  6504    Objective     =       1872575.484834
+Iteration:  6915    Objective     =       1872170.674815
+Iteration:  7018    Objective     =       1872095.337693
+Iteration:  7104    Objective     =       1872013.002964
+Removing shift (22).
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:56:45 2019
+
+
+Primal crossover.
+  Primal:  Fixing 89838 variables.
+    89837 PMoves:  Infeasibility 6.65188772e+001  Objective 2.25377925e+006
+    88964 PMoves:  Infeasibility 3.47165720e+001  Objective 2.25368849e+006
+    85189 PMoves:  Infeasibility 3.40324083e+001  Objective 2.23129768e+006
+    81190 PMoves:  Infeasibility 3.36142363e+001  Objective 2.20528345e+006
+    76989 PMoves:  Infeasibility 3.30519800e+001  Objective 2.17980198e+006
+    72724 PMoves:  Infeasibility 3.28452928e+001  Objective 2.14879584e+006
+    68688 PMoves:  Infeasibility 3.21481315e+001  Objective 2.12167928e+006
+    64944 PMoves:  Infeasibility 3.17903885e+001  Objective 2.09629634e+006
+    61049 PMoves:  Infeasibility 3.10446709e+001  Objective 2.07349965e+006
+    56800 PMoves:  Infeasibility 3.06406901e+001  Objective 2.04506340e+006
+    52882 PMoves:  Infeasibility 2.96306589e+001  Objective 2.01948530e+006
+    48791 PMoves:  Infeasibility 2.73160775e+001  Objective 1.99453914e+006
+    44841 PMoves:  Infeasibility 2.63093921e+001  Objective 1.97136783e+006
+    40660 PMoves:  Infeasibility 2.61573532e+001  Objective 1.94443787e+006
+    36554 PMoves:  Infeasibility 2.60162640e+001  Objective 1.91445763e+006
+    32519 PMoves:  Infeasibility 2.59261670e+001  Objective 1.89024210e+006
+    28762 PMoves:  Infeasibility 2.58368709e+001  Objective 1.86694237e+006
+    25207 PMoves:  Infeasibility 2.48248150e+001  Objective 1.84630205e+006
+    23480 PMoves:  Infeasibility 2.48723166e+001  Objective 1.83020612e+006
+    21718 PMoves:  Infeasibility 2.47782992e+001  Objective 1.82652113e+006
+    20132 PMoves:  Infeasibility 2.47921918e+001  Objective 1.82406222e+006
+    18533 PMoves:  Infeasibility 2.46528099e+001  Objective 1.82256850e+006
+    16963 PMoves:  Infeasibility 2.46357636e+001  Objective 1.82028107e+006
+    16071 PMoves:  Infeasibility 2.35018621e+001  Objective 1.81860703e+006
+    15217 PMoves:  Infeasibility 2.18207637e+001  Objective 1.81660844e+006
+    14422 PMoves:  Infeasibility 2.10611060e+001  Objective 1.81488585e+006
+    13603 PMoves:  Infeasibility 1.80557614e+001  Objective 1.81304957e+006
+    12784 PMoves:  Infeasibility 1.60249390e+001  Objective 1.81146580e+006
+    12001 PMoves:  Infeasibility 1.49922559e+001  Objective 1.80972697e+006
+    11191 PMoves:  Infeasibility 1.29116806e+001  Objective 1.80788150e+006
+    10534 PMoves:  Infeasibility 1.25392593e+001  Objective 1.80611788e+006
+     9807 PMoves:  Infeasibility 1.17172847e+001  Objective 1.80406840e+006
+     9018 PMoves:  Infeasibility 1.07742386e+001  Objective 1.80208333e+006
+     8261 PMoves:  Infeasibility 9.74841200e+000  Objective 1.80066897e+006
+     7470 PMoves:  Infeasibility 8.07325978e+000  Objective 1.79884124e+006
+     6764 PMoves:  Infeasibility 6.03493121e+000  Objective 1.79650471e+006
+     5858 PMoves:  Infeasibility 5.68350929e+000  Objective 1.78716728e+006
+     5448 PMoves:  Infeasibility 5.11828238e+000  Objective 1.78629669e+006
+     5040 PMoves:  Infeasibility 4.86048105e+000  Objective 1.78554775e+006
+     4629 PMoves:  Infeasibility 4.86481786e+000  Objective 1.78484597e+006
+     4208 PMoves:  Infeasibility 4.78414488e+000  Objective 1.78419728e+006
+     3785 PMoves:  Infeasibility 4.78334336e+000  Objective 1.78353141e+006
+     3391 PMoves:  Infeasibility 4.70988448e+000  Objective 1.78303273e+006
+     3012 PMoves:  Infeasibility 4.47172347e+000  Objective 1.78268197e+006
+     2632 PMoves:  Infeasibility 4.25707582e+000  Objective 1.78198608e+006
+     2252 PMoves:  Infeasibility 4.08562483e+000  Objective 1.78113929e+006
+     1901 PMoves:  Infeasibility 4.08110593e+000  Objective 1.77917380e+006
+     1554 PMoves:  Infeasibility 4.04407105e+000  Objective 1.77872795e+006
+     1184 PMoves:  Infeasibility 4.00964580e+000  Objective 1.77836729e+006
+      794 PMoves:  Infeasibility 3.95773956e+000  Objective 1.78249161e+006
+      404 PMoves:  Infeasibility 3.95047707e+000  Objective 1.78211117e+006
+       46 PMoves:  Infeasibility 3.94439191e+000  Objective 1.78188703e+006
+        0 PMoves:  Infeasibility 3.93704531e+000  Objective 1.78182215e+006
+  Primal:  Pushed 47080, exchanged 42758.
+  Dual:  Fixing 17563 variables.
+    17562 DMoves:  Infeasibility 3.64577468e+005  Objective 1.76660744e+006
+    14254 DMoves:  Infeasibility 2.99497053e+005  Objective 1.82838374e+006
+    12738 DMoves:  Infeasibility 2.03012096e+005  Objective 1.74987894e+006
+     8717 DMoves:  Infeasibility 1.30430941e+005  Objective 1.74775843e+006
+     2672 DMoves:  Infeasibility 6.60937744e+004  Objective 1.75819278e+006
+        0 DMoves:  Infeasibility 4.59276014e+004  Objective 1.74289174e+006
+  Dual:  Pushed 14206, exchanged 3357.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       1781822.146160
+Iteration:    72    Objective     =       1781406.608136
+Iteration:   531    Objective     =       1781295.908033
+Iteration:  1010    Objective     =       1780899.101989
+Iteration:  1632    Objective     =       1777851.912864
+Iteration:  1752    Objective     =       1777190.004332
+Iteration:  2156    Objective     =       1776176.565646
+Elapsed time = 13.61 sec. (10002.82 ticks, 2258 iterations)
+Iteration:  2258    Objective     =       1776098.344900
+Iteration:  2337    Objective     =       1776060.772786
+Iteration:  2375    Objective     =       1776031.347177
+Iteration:  2485    Objective     =       1775544.814509
+Iteration:  2530    Objective     =       1775501.507967
+Iteration:  2635    Objective     =       1775456.277317
+Iteration:  2740    Objective     =       1775195.644043
+Iteration:  2847    Objective     =       1774807.931605
+Iteration:  2952    Objective     =       1774348.610061
+Iteration:  3055    Objective     =       1774204.602649
+Iteration:  3156    Objective     =       1774068.087076
+Iteration:  3257    Objective     =       1773912.002128
+Iteration:  3360    Objective     =       1773741.790200
+Iteration:  3466    Objective     =       1773547.222998
+Iteration:  3567    Objective     =       1773463.818175
+Iteration:  3655    Objective     =       1773334.117514
+Iteration:  3757    Objective     =       1773220.272433
+Iteration:  3859    Objective     =       1773126.791995
+Iteration:  3917    Objective     =       1773020.019290
+Iteration:  4017    Objective     =       1772886.507998
+Iteration:  4118    Objective     =       1772815.882531
+Iteration:  4220    Objective     =       1772693.845173
+Iteration:  4606    Objective     =       1772256.992737
+Iteration:  4729    Objective     =       1772159.191636
+Iteration:  4830    Objective     =       1772011.890201
+Iteration:  5099    Objective     =       1771781.638482
+Iteration:  5201    Objective     =       1771714.521560
+Iteration:  5388    Objective     =       1771568.984198
+Iteration:  5490    Objective     =       1771461.713935
+Iteration:  5595    Objective     =       1771425.555510
+Iteration:  5707    Objective     =       1771347.349215
+Iteration:  5950    Objective     =       1771211.991760
+Iteration:  6054    Objective     =       1771125.165584
+Iteration:  6156    Objective     =       1771067.255227
+Iteration:  6199    Objective     =       1771043.083719
+Iteration:  6414    Objective     =       1770894.042564
+Iteration:  6519    Objective     =       1770837.716706
+Iteration:  6620    Objective     =       1770788.827001
+Iteration:  6744    Objective     =       1770730.768660
+Iteration:  6846    Objective     =       1770669.673233
+Iteration:  6948    Objective     =       1770628.319719
+Iteration:  7117    Objective     =       1770526.950240
+Iteration:  7218    Objective     =       1770494.867537
+Iteration:  7349    Objective     =       1770458.498806
+Iteration:  7450    Objective     =       1770411.807440
+Iteration:  7552    Objective     =       1770354.933424
+Iteration:  7653    Objective     =       1770298.679397
+Iteration:  7764    Objective     =       1770260.937714
+Iteration:  7977    Objective     =       1770203.148760
+Iteration:  8136    Objective     =       1770168.113042
+Iteration:  8303    Objective     =       1770124.991401
+Iteration:  8404    Objective     =       1770107.004287
+Removing shift (72).
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:57:25 2019
+
+
+Primal crossover.
+  Primal:  Fixing 11000 variables.
+    10999 PMoves:  Infeasibility 1.22824780e-004  Objective 1.87049181e+006
+     9275 PMoves:  Infeasibility 7.73756337e-005  Objective 1.87049181e+006
+     7999 PMoves:  Infeasibility 7.74386421e-005  Objective 1.87049181e+006
+     6944 PMoves:  Infeasibility 5.04205428e-005  Objective 1.87049181e+006
+     6147 PMoves:  Infeasibility 3.99181044e-005  Objective 1.87049181e+006
+     5290 PMoves:  Infeasibility 2.44674957e-005  Objective 1.87049181e+006
+     4393 PMoves:  Infeasibility 1.76724436e-005  Objective 1.87049181e+006
+     3652 PMoves:  Infeasibility 2.72187805e-006  Objective 1.87049181e+006
+     2972 PMoves:  Infeasibility 1.99834221e-006  Objective 1.87049181e+006
+     2160 PMoves:  Infeasibility 1.48642675e-006  Objective 1.87049181e+006
+     1529 PMoves:  Infeasibility 7.50110576e-007  Objective 1.87049181e+006
+      947 PMoves:  Infeasibility 6.11561334e-007  Objective 1.87049181e+006
+      447 PMoves:  Infeasibility 2.38117548e-007  Objective 1.87049180e+006
+        0 PMoves:  Infeasibility 2.50025521e-011  Objective 1.87049181e+006
+  Primal:  Pushed 1821, exchanged 9179.
+  Dual:  Fixing 74 variables.
+       73 DMoves:  Infeasibility 8.53666271e-014  Objective 1.87049181e+006
+        0 DMoves:  Infeasibility 8.53666271e-014  Objective 1.87049181e+006
+  Dual:  Pushed 38, exchanged 36.
+Using devex.
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:57:32 2019
+
+
+Primal crossover.
+  Primal:  Fixing 29536 variables.
+    29535 PMoves:  Infeasibility 2.27863141e-003  Objective 2.65130168e+006
+    24540 PMoves:  Infeasibility 1.82013202e-003  Objective 2.65129437e+006
+    18854 PMoves:  Infeasibility 1.95263481e-004  Objective 2.65129434e+006
+    15212 PMoves:  Infeasibility 1.65569616e-004  Objective 2.65129431e+006
+    12812 PMoves:  Infeasibility 1.75988692e-004  Objective 2.65129405e+006
+    10939 PMoves:  Infeasibility 1.82827765e-004  Objective 2.65129398e+006
+     8884 PMoves:  Infeasibility 1.91317596e-004  Objective 2.65129365e+006
+     7871 PMoves:  Infeasibility 1.86839106e-004  Objective 2.65129397e+006
+     6689 PMoves:  Infeasibility 1.81912041e-004  Objective 2.65129392e+006
+     5694 PMoves:  Infeasibility 1.81376048e-004  Objective 2.65129397e+006
+     4782 PMoves:  Infeasibility 1.83756887e-004  Objective 2.65129384e+006
+     3920 PMoves:  Infeasibility 1.81320937e-004  Objective 2.65129374e+006
+     3700 PMoves:  Infeasibility 1.76476980e-004  Objective 2.65129392e+006
+     2983 PMoves:  Infeasibility 1.67937298e-004  Objective 2.65129417e+006
+     2273 PMoves:  Infeasibility 1.58535580e-004  Objective 2.65129409e+006
+     1647 PMoves:  Infeasibility 3.70754742e-005  Objective 2.65130424e+006
+     1030 PMoves:  Infeasibility 2.15270228e-005  Objective 2.65130408e+006
+      483 PMoves:  Infeasibility 8.02441173e-006  Objective 2.65130370e+006
+        0 PMoves:  Infeasibility 4.63842298e-011  Objective 2.65130399e+006
+  Primal:  Pushed 15971, exchanged 13565.
+  Dual:  Fixing 62 variables.
+       61 DMoves:  Infeasibility 5.77509763e-004  Objective 2.65130399e+006
+        0 DMoves:  Infeasibility 5.77509763e-004  Objective 2.65130399e+006
+  Dual:  Pushed 58, exchanged 4.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       2651303.491557
+Using devex.
+
+Primal simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:57:40 2019
+
+
+Primal crossover.
+  Primal:  Fixing 10173 variables.
+    10172 PMoves:  Infeasibility 1.17269921e-005  Objective 2.97539208e+006
+     9015 PMoves:  Infeasibility 9.69308704e-006  Objective 2.97539208e+006
+     7974 PMoves:  Infeasibility 9.66453346e-006  Objective 2.97539208e+006
+     6959 PMoves:  Infeasibility 8.84984400e-006  Objective 2.97539208e+006
+     6061 PMoves:  Infeasibility 7.25007487e-006  Objective 2.97539207e+006
+     5144 PMoves:  Infeasibility 5.85552832e-006  Objective 2.97539207e+006
+     4174 PMoves:  Infeasibility 5.08813228e-006  Objective 2.97539207e+006
+     3520 PMoves:  Infeasibility 4.09387222e-006  Objective 2.97539207e+006
+     2880 PMoves:  Infeasibility 3.64238894e-006  Objective 2.97539207e+006
+     2259 PMoves:  Infeasibility 3.39803900e-006  Objective 2.97539207e+006
+     1636 PMoves:  Infeasibility 1.09465326e-006  Objective 2.97539207e+006
+     1119 PMoves:  Infeasibility 7.08645723e-007  Objective 2.97539208e+006
+      649 PMoves:  Infeasibility 2.82228302e-007  Objective 2.97539208e+006
+      175 PMoves:  Infeasibility 6.66689738e-008  Objective 2.97539208e+006
+        0 PMoves:  Infeasibility 1.14486667e-011  Objective 2.97539208e+006
+  Primal:  Pushed 1054, exchanged 9119.
+  Dual:  Fixing 49 variables.
+       48 DMoves:  Infeasibility 2.55112712e-012  Objective 2.97539208e+006
+        0 DMoves:  Infeasibility 2.55112712e-012  Objective 2.97539208e+006
+  Dual:  Pushed 38, exchanged 11.
+Using devex.
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.6.0.0) Mon Oct 21 20:58:06 2019
+
+
+Primal crossover.
+  Primal:  Fixing 52651 variables.
+    52650 PMoves:  Infeasibility 1.73946854e-003  Objective 3.01510299e+006
+    47038 PMoves:  Infeasibility 5.86714831e-003  Objective 3.01464313e+006
+    40297 PMoves:  Infeasibility 9.37200979e-003  Objective 3.01430620e+006
+    33903 PMoves:  Infeasibility 1.27801934e-002  Objective 3.01400333e+006
+    27847 PMoves:  Infeasibility 1.40187983e-002  Objective 3.01399120e+006
+    21637 PMoves:  Infeasibility 1.96052423e-002  Objective 3.01346353e+006
+    19192 PMoves:  Infeasibility 1.95864458e-002  Objective 3.01346353e+006
+    17497 PMoves:  Infeasibility 1.95941194e-002  Objective 3.01346348e+006
+    15831 PMoves:  Infeasibility 1.96031241e-002  Objective 3.01346337e+006
+    14151 PMoves:  Infeasibility 1.96101996e-002  Objective 3.01346339e+006
+    12408 PMoves:  Infeasibility 1.96314524e-002  Objective 3.01346315e+006
+    11061 PMoves:  Infeasibility 1.96370566e-002  Objective 3.01346235e+006
+     9547 PMoves:  Infeasibility 1.96444497e-002  Objective 3.01346119e+006
+     7678 PMoves:  Infeasibility 1.89320669e-002  Objective 3.01353079e+006
+     6349 PMoves:  Infeasibility 1.88194266e-002  Objective 3.01350321e+006
+     4910 PMoves:  Infeasibility 1.88229261e-002  Objective 3.01350257e+006
+     3787 PMoves:  Infeasibility 1.56928568e-002  Objective 3.01380595e+006
+     2949 PMoves:  Infeasibility 1.56866791e-002  Objective 3.01380413e+006
+     2292 PMoves:  Infeasibility 1.42521726e-002  Objective 3.01393587e+006
+     1561 PMoves:  Infeasibility 1.31869599e-002  Objective 3.01403536e+006
+      971 PMoves:  Infeasibility 1.10740474e-002  Objective 3.01423186e+006
+      264 PMoves:  Infeasibility 6.31233921e-003  Objective 3.01467334e+006
+        0 PMoves:  Infeasibility 3.45619158e-011  Objective 3.01528367e+006
+  Primal:  Pushed 31613, exchanged 21038.
+  Dual:  Fixing 82 variables.
+       81 DMoves:  Infeasibility 5.32789059e-001  Objective 3.01519770e+006
+        0 DMoves:  Infeasibility 2.80390993e-001  Objective 3.01519799e+006
+  Dual:  Pushed 57, exchanged 25.
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Objective     =       3015283.674807
+Iteration:     2    Objective     =       3015262.159398
+Using devex.
+
+Primal simplex solved model.
+

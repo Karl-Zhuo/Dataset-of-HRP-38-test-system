@@ -1,0 +1,7 @@
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'OSdata_case1_1'. No such file or directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_all_op', 'D:\Documents\项目1.1课题2任务2\西北网规划算例_发布版本201711\paper\R2\HRP-38 test system_R2\hand in v4\Codes for operation simulation\run_all_op.m', 15)" style="font-weight:bold">run_all_op</a> (<a href="matlab: opentoline('D:\Documents\项目1.1课题2任务2\西北网规划算例_发布版本201711\paper\R2\HRP-38 test system_R2\hand in v4\Codes for operation simulation\run_all_op.m',15,0)">line 15</a>)
+    load(['OSdata',test_type,num2str(igap)])
+} 
+run_all_op

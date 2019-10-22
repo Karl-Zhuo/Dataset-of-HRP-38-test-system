@@ -1,0 +1,288 @@
+
+------------------------------------------------------------------------
+          Access violation detected at Mon Oct 21 20:22:08 2019
+------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding      : Disabled
+  Crash Mode          : continue (default)
+  Current Graphics Driver: NVIDIA Corporation GeForce MX150/PCIe/SSE2 Version 4.6.0 NVIDIA 391.35
+  Default Encoding    : GBK
+  Graphics card 1     : Intel Corporation ( 0x8086 ) Intel(R) UHD Graphics 620 Version 25.20.100.6472
+  Graphics card 2     : NVIDIA ( 0x10de ) NVIDIA GeForce MX150 Version 23.21.13.9135
+  Host Name           : DESKTOP-DV8LACM
+  MATLAB Architecture : win64
+  MATLAB Root         : C:\Program Files\MATLAB\R2016a
+  MATLAB Version      : 9.0.0.341360 (R2016a)
+  OpenGL              : hardware
+  Operating System    : Microsoft Windows 10 教育版
+  Processor ID        : x86 Family 6 Model 142 Stepping 10, GenuineIntel
+  Virtual Machine     : Java 1.7.0_60-b19 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  Window System       : Version 10.0 (Build 18362)
+
+Fault Count: 1
+
+
+Abnormal termination:
+Access violation
+
+Register State (from fault):
+  RAX = 000000005c6d2fd0  RBX = 000000005016b7e0
+  RCX = 000000005c6d2fd0  RDX = 0000000000000000
+  RSP = 00000000043f90c0  RBP = 00000000043f91c0
+  RSI = 00000000043fa188  RDI = 00000000043fa190
+ 
+   R8 = 0000000018d6bc80   R9 = 000000005c6d0250
+  R10 = 000000005c6d0000  R11 = 00007ffafeda9f10
+  R12 = 0000000000000000  R13 = 00000000043fa0a8
+  R14 = 000000000000002d  R15 = 0000000000000000
+ 
+  RIP = 00007ffb0b2f2ace  EFL = 00010202
+ 
+   CS = 0033   FS = 0053   GS = 002b
+
+Stack Trace (from fault):
+[  0] 0x00007ffb0b2f2ace D:\Program Files\IBM\ILOG\CPLEX_Studio126\cplex\matlab\x64_win64\cplexlink1260.mexw64+00010958 mexFunction+00000926
+[  1] 0x00000000fc5f77d1 C:\Program Files\MATLAB\R2016a\bin\win64\libmex.dll+00096209 mexRunMexFile+00000129
+[  2] 0x00000000fc5f6d12 C:\Program Files\MATLAB\R2016a\bin\win64\libmex.dll+00093458 inSwapMexfileReader+00000434
+[  3] 0x00000000fc5f6966 C:\Program Files\MATLAB\R2016a\bin\win64\libmex.dll+00092518 mexUnlock+00004774
+[  4] 0x0000000015e85d1f C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089375 Mfh_file::dispatch_fh_impl+00000527
+[  5] 0x0000000015e85f0e C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089870 Mfh_file::dispatch_fh+00000062
+[  6] 0x0000000015e83e15 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00081429 Mfunction_handle::dispatch+00000933
+[  7] 0x0000000016a2f451 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00848977 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00049101
+[  8] 0x0000000016a2ec09 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00846857 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00046981
+[  9] 0x0000000016a2d0c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00839874 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00039998
+[ 10] 0x0000000016a2bd27 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00834855 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00034979
+[ 11] 0x0000000016a2b1c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00831938 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00032062
+[ 12] 0x000000001697ee82 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00126594
+[ 13] 0x000000001697f107 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00127239
+[ 14] 0x0000000015e85e95 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089749 Mfh_file::dispatch_fh_impl+00000901
+[ 15] 0x0000000015e85f0e C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089870 Mfh_file::dispatch_fh+00000062
+[ 16] 0x0000000015e83e15 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00081429 Mfunction_handle::dispatch+00000933
+[ 17] 0x00000000169b2033 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00335923
+[ 18] 0x0000000016b58114 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02064660 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00682852
+[ 19] 0x0000000016a3428f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00869007 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00069131
+[ 20] 0x0000000016a34ef6 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00872182 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00072306
+[ 21] 0x0000000016a36237 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877111 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077235
+[ 22] 0x0000000016a36c05 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00879621 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00079745
+[ 23] 0x0000000016a3642f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877615 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077739
+[ 24] 0x0000000016a3613a C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00876858 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00076982
+[ 25] 0x0000000016a2de5b C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00843355 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00043479
+[ 26] 0x0000000016a2bd27 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00834855 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00034979
+[ 27] 0x0000000016a2b1c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00831938 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00032062
+[ 28] 0x000000001697ee82 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00126594
+[ 29] 0x000000001697f107 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00127239
+[ 30] 0x0000000015e85e95 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089749 Mfh_file::dispatch_fh_impl+00000901
+[ 31] 0x0000000015e85f0e C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089870 Mfh_file::dispatch_fh+00000062
+[ 32] 0x0000000015e83e15 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00081429 Mfunction_handle::dispatch+00000933
+[ 33] 0x00000000169b2033 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00335923
+[ 34] 0x0000000016b58114 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02064660 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00682852
+[ 35] 0x0000000016a2ec09 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00846857 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00046981
+[ 36] 0x0000000016a2d0c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00839874 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00039998
+[ 37] 0x0000000016a2bd27 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00834855 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00034979
+[ 38] 0x0000000016a2b1c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00831938 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00032062
+[ 39] 0x00000000169b9d47 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00367943
+[ 40] 0x00000000169b9681 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00366209
+[ 41] 0x00000000169b9810 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00366608
+[ 42] 0x0000000016b6d395 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02151317 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00769509
+[ 43] 0x0000000016b6d31e C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02151198 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00769390
+[ 44] 0x000000001698dad1 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00187089
+[ 45] 0x0000000016010241 C:\Program Files\MATLAB\R2016a\bin\win64\m_interpreter.dll+00787009 inEvalCmdWithLocalReturn+00000065
+[ 46] 0x00000000fb6056cd C:\Program Files\MATLAB\R2016a\bin\win64\libmwbridge.dll+00087757 mnGetPrompt+00005933
+[ 47] 0x00000000fb606473 C:\Program Files\MATLAB\R2016a\bin\win64\libmwbridge.dll+00091251 mnParser+00001091
+[ 48] 0x0000000015d899d1   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00235985 mcr::runtime::setInterpreterThreadToCurrent+00025585
+[ 49] 0x0000000015d88967   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00231783 mcr::runtime::setInterpreterThreadToCurrent+00021383
+[ 50] 0x0000000015d889e3   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00231907 mcr::runtime::setInterpreterThreadToCurrent+00021507
+[ 51] 0x0000000015d892d1   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00234193 mcr::runtime::setInterpreterThreadToCurrent+00023793
+[ 52] 0x00000000fd01ea57   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00584279 iqm::UserEvalPlugin::pre+00030535
+[ 53] 0x00000000fd02b3ac   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00635820 iqm::UserEvalPlugin::pre+00082076
+[ 54] 0x00000000fd018bf0   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00560112 iqm::UserEvalPlugin::pre+00006368
+[ 55] 0x00000000fd02ddaa   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00646570 iqm::UserEvalPlugin::pre+00092826
+[ 56] 0x00000000fcffbd07   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00441607 iqm::PackagedTaskPlugin::PackagedTaskPlugin+00000727
+[ 57] 0x00000000fcffc35f   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00443231 iqm::PackagedTaskPlugin::execute+00000575
+[ 58] 0x00000000fcffbd79   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00441721 iqm::PackagedTaskPlugin::PackagedTaskPlugin+00000841
+[ 59] 0x00000000fcffc1d4   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00442836 iqm::PackagedTaskPlugin::execute+00000180
+[ 60] 0x0000000015d9b4a5   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00308389 mcrRegisterExternalFunction+00024629
+[ 61] 0x00000000fcfd62ea   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00287466 iqm::Iqm::setupIqmFcnPtrs+00069674
+[ 62] 0x00000000fcfd61d7   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00287191 iqm::Iqm::setupIqmFcnPtrs+00069399
+[ 63] 0x00000000fcfbbae1   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00178913 iqm::Iqm::deliver+00003409
+[ 64] 0x00000000fcfbc9df   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00182751 iqm::Iqm::deliver+00007247
+[ 65] 0x00000001001a14d3 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01774803 services::system_events::PpeDispatchHook::dispatchOne+00031459
+[ 66] 0x00000001001ae933 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01829171 sysq::addProcessPendingEventsUnitTestHook+00005491
+[ 67] 0x00000001001aeb10 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01829648 sysq::addProcessPendingEventsUnitTestHook+00005968
+[ 68] 0x00000001001b0665 C:\Program Files\MATLAB\R
+------------------------------------------------------------------------
+          Access violation detected at Mon Oct 21 20:35:15 2019
+------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding      : Disabled
+  Crash Mode          : continue (default)
+  Current Graphics Driver: Unknown hardware 
+  Default Encoding    : GBK
+  Graphics card 1     : Intel Corporation ( 0x8086 ) Intel(R) UHD Graphics 620 Version 25.20.100.6472
+  Graphics card 2     : NVIDIA ( 0x10de ) NVIDIA GeForce MX150 Version 23.21.13.9135
+  Host Name           : DESKTOP-DV8LACM
+  MATLAB Architecture : win64
+  MATLAB Root         : C:\Program Files\MATLAB\R2016a
+  MATLAB Version      : 9.0.0.341360 (R2016a)
+  OpenGL              : hardware
+  Operating System    : Microsoft Windows 10 教育版
+  Processor ID        : x86 Family 6 Model 142 Stepping 10, GenuineIntel
+  Virtual Machine     : Java 1.7.0_60-b19 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  Window System       : Version 10.0 (Build 18362)
+
+Fault Count: 1
+
+
+Abnormal termination:
+Access violation
+
+Register State (from fault):
+  RAX = 000000005b129b40  RBX = 0000000050309980
+  RCX = 000000005b129b40  RDX = 0000000000000000
+  RSP = 00000000043f8630  RBP = 00000000043f8730
+  RSI = 00000000043f96f8  RDI = 00000000043f9700
+ 
+   R8 = 00000000188ebc80   R9 = 000000005b129d00
+  R10 = 000000005b128000  R11 = 00007ffb09a99f10
+  R12 = 0000000000000000  R13 = 00000000043f9618
+  R14 = 000000000000002d  R15 = 0000000000000000
+ 
+  RIP = 00007ffb12342ace  EFL = 00010202
+ 
+   CS = 0033   FS = 0053   GS = 002b
+
+Stack Trace (from fault):
+[  0] 0x00007ffb12342ace D:\Program Files\IBM\ILOG\CPLEX_Studio126\cplex\matlab\x64_win64\cplexlink1260.mexw64+00010958 mexFunction+00000926
+[  1] 0x00000000fc5f77d1 C:\Program Files\MATLAB\R2016a\bin\win64\libmex.dll+00096209 mexRunMexFile+00000129
+[  2] 0x00000000fc5f6d12 C:\Program Files\MATLAB\R2016a\bin\win64\libmex.dll+00093458 inSwapMexfileReader+00000434
+[  3] 0x00000000fc5f6966 C:\Program Files\MATLAB\R2016a\bin\win64\libmex.dll+00092518 mexUnlock+00004774
+[  4] 0x00000000157c5d1f C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089375 Mfh_file::dispatch_fh_impl+00000527
+[  5] 0x00000000157c5f0e C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089870 Mfh_file::dispatch_fh+00000062
+[  6] 0x00000000157c3e15 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00081429 Mfunction_handle::dispatch+00000933
+[  7] 0x0000000016c2f451 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00848977 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00049101
+[  8] 0x0000000016c3428f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00869007 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00069131
+[  9] 0x0000000016c34ef6 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00872182 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00072306
+[ 10] 0x0000000016c36237 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877111 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077235
+[ 11] 0x0000000016c36c05 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00879621 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00079745
+[ 12] 0x0000000016c3642f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877615 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077739
+[ 13] 0x0000000016c3613a C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00876858 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00076982
+[ 14] 0x0000000016c2de5b C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00843355 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00043479
+[ 15] 0x0000000016c2bd27 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00834855 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00034979
+[ 16] 0x0000000016c2b1c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00831938 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00032062
+[ 17] 0x0000000016b7ee82 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00126594
+[ 18] 0x0000000016b7f107 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00127239
+[ 19] 0x00000000157c5e95 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089749 Mfh_file::dispatch_fh_impl+00000901
+[ 20] 0x00000000157c5f0e C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089870 Mfh_file::dispatch_fh+00000062
+[ 21] 0x00000000157c3e15 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00081429 Mfunction_handle::dispatch+00000933
+[ 22] 0x0000000016bb2033 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00335923
+[ 23] 0x0000000016d58114 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02064660 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00682852
+[ 24] 0x0000000016c3428f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00869007 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00069131
+[ 25] 0x0000000016c34ef6 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00872182 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00072306
+[ 26] 0x0000000016c36237 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877111 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077235
+[ 27] 0x0000000016c36c05 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00879621 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00079745
+[ 28] 0x0000000016c3642f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877615 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077739
+[ 29] 0x0000000016c3613a C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00876858 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00076982
+[ 30] 0x0000000016c2de5b C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00843355 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00043479
+[ 31] 0x0000000016c2bd27 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00834855 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00034979
+[ 32] 0x0000000016c2b1c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00831938 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00032062
+[ 33] 0x0000000016b7ee82 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00126594
+[ 34] 0x0000000016b7f107 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00127239
+[ 35] 0x00000000157c5e95 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089749 Mfh_file::dispatch_fh_impl+00000901
+[ 36] 0x00000000157c5f0e C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00089870 Mfh_file::dispatch_fh+00000062
+[ 37] 0x00000000157c3e15 C:\Program Files\MATLAB\R2016a\bin\win64\m_dispatcher.dll+00081429 Mfunction_handle::dispatch+00000933
+[ 38] 0x0000000016bb2033 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00335923
+[ 39] 0x0000000016d58114 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02064660 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00682852
+[ 40] 0x0000000016c3428f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00869007 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00069131
+[ 41] 0x0000000016c34ef6 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00872182 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00072306
+[ 42] 0x0000000016c36237 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877111 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077235
+[ 43] 0x0000000016c36c05 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00879621 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00079745
+[ 44] 0x0000000016c3642f C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00877615 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00077739
+[ 45] 0x0000000016c3613a C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00876858 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00076982
+[ 46] 0x0000000016c2de5b C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00843355 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00043479
+[ 47] 0x0000000016c2bd27 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00834855 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00034979
+[ 48] 0x0000000016c2b1c2 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00831938 boost::serialization::singleton<boost::archive::detail::pointer_iserializer<boost::archive::binaryTerm_iarchive,ir::IrTree> >::get_instance+00032062
+[ 49] 0x0000000016bb9d47 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00367943
+[ 50] 0x0000000016bb9681 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00366209
+[ 51] 0x0000000016bb9810 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00366608
+[ 52] 0x0000000016d6d395 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02151317 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00769509
+[ 53] 0x0000000016d6d31e C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+02151198 boost::serialization::singleton<boost::archive::detail::pointer_oserializer<boost::archive::binaryTerm_oarchive,ir::IrTree> >::get_instance+00769390
+[ 54] 0x0000000016b8dad1 C:\Program Files\MATLAB\R2016a\bin\win64\m_lxe.dll+00187089
+[ 55] 0x0000000015950241 C:\Program Files\MATLAB\R2016a\bin\win64\m_interpreter.dll+00787009 inEvalCmdWithLocalReturn+00000065
+[ 56] 0x00000000fb6056cd C:\Program Files\MATLAB\R2016a\bin\win64\libmwbridge.dll+00087757 mnGetPrompt+00005933
+[ 57] 0x00000000fb606473 C:\Program Files\MATLAB\R2016a\bin\win64\libmwbridge.dll+00091251 mnParser+00001091
+[ 58] 0x0000000015bc99d1   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00235985 mcr::runtime::setInterpreterThreadToCurrent+00025585
+[ 59] 0x0000000015bc8967   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00231783 mcr::runtime::setInterpreterThreadToCurrent+00021383
+[ 60] 0x0000000015bc89e3   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00231907 mcr::runtime::setInterpreterThreadToCurrent+00021507
+[ 61] 0x0000000015bc92d1   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00234193 mcr::runtime::setInterpreterThreadToCurrent+00023793
+[ 62] 0x00000000fd01ea57   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00584279 iqm::UserEvalPlugin::pre+00030535
+[ 63] 0x00000000fd02b3ac   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00635820 iqm::UserEvalPlugin::pre+00082076
+[ 64] 0x00000000fd018bf0   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00560112 iqm::UserEvalPlugin::pre+00006368
+[ 65] 0x00000000fd02ddaa   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00646570 iqm::UserEvalPlugin::pre+00092826
+[ 66] 0x00000000fcffbd07   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00441607 iqm::PackagedTaskPlugin::PackagedTaskPlugin+00000727
+[ 67] 0x00000000fcffc35f   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00443231 iqm::PackagedTaskPlugin::execute+00000575
+[ 68] 0x00000000fcffbd79   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00441721 iqm::PackagedTaskPlugin::PackagedTaskPlugin+00000841
+[ 69] 0x00000000fcffc1d4   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00442836 iqm::PackagedTaskPlugin::execute+00000180
+[ 70] 0x0000000015bdb4a5   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00308389 mcrRegisterExternalFunction+00024629
+[ 71] 0x00000000fcfd62ea   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00287466 iqm::Iqm::setupIqmFcnPtrs+00069674
+[ 72] 0x00000000fcfd61d7   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00287191 iqm::Iqm::setupIqmFcnPtrs+00069399
+[ 73] 0x00000000fcfbbae1   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00178913 iqm::Iqm::deliver+00003409
+[ 74] 0x00000000fcfbc9df   C:\Program Files\MATLAB\R2016a\bin\win64\iqm.dll+00182751 iqm::Iqm::deliver+00007247
+[ 75] 0x00000001001a14d3 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01774803 services::system_events::PpeDispatchHook::dispatchOne+00031459
+[ 76] 0x00000001001ae933 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01829171 sysq::addProcessPendingEventsUnitTestHook+00005491
+[ 77] 0x00000001001aeb10 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01829648 sysq::addProcessPendingEventsUnitTestHook+00005968
+[ 78] 0x00000001001b0665 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01836645 sysq::getCondition+00003813
+[ 79] 0x00000001001b2422 C:\Program Files\MATLAB\R2016a\bin\win64\libmwservices.dll+01844258 svWS_ProcessPendingEvents+00000162
+[ 80] 0x0000000015bc9d0d   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00236813 mcr::runtime::setInterpreterThreadToCurrent+00026413
+[ 81] 0x0000000015bca3fa   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00238586 mcr::runtime::setInterpreterThreadToCurrent+00028186
+[ 82] 0x0000000015bc1a05   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00203269 mcr_process_events+00008629
+[ 83] 0x0000000015bc3462   C:\Program Files\MATLAB\R2016a\bin\win64\mcr.dll+00210018 mcr_process_events+00015378
+[ 84] 0x00000000157093be C:\Program Files\MATLAB\R2016a\bin\win64\MVMLocal.dll+00234430 mvm_server::inproc::LocalFactory::terminate+00071182
+[ 85] 0x00000000fa93cd89   C:\Program Files\MATLAB\R2016a\bin\win64\mvm.dll+01101193 mvm::detail::initLocalMvmHack+00000521
+[ 86] 0x00000000fa93d355   C:\Program Files\MATLAB\R2016a\bin\win64\mvm.dll+01102677 mvm::detail::SessionImpl::privateSession+00000373
+[ 87] 0x00000000fa93d561   C:\Program Files\MATLAB\R2016a\bin\win64\mvm.dll+01103201 mvm::detail::SessionImpl::privateSession+00000897
+[ 88] 0x0000000140006fd5 C:\Program Files\MATLAB\R2016a\bin\win64\matlab.exe+00028629
+[ 89] 0x0000000140007661 C:\Program Files\MATLAB\R2016a\bin\win64\matlab.exe+00030305
+[ 90] 0x00007ffb1f917bd4                   C:\WINDOWS\System32\KERNEL32.DLL+00097236 BaseThreadInitThunk+00000020
+[ 91] 0x00007ffb2014ce71                      C:\WINDOWS\SYSTEM32\ntdll.dll+00446065 RtlUserThreadStart+00000033
+
+
+This error was detected while a MEX-file was running. If the MEX-file
+is not an official MathWorks function, please examine its source code
+for errors. Please consult the E Month= 1
+ Month= 2
+ Month= 3
+ Month= 4
+ Month= 5
+ Month= 6
+ Month= 7
+ Month= 8
+ Month= 9
+ Month= 10
+ Month= 11
+ Month= 12
+ total cost = 278.8338
+ investment cost = 1.8958
+ operating cost = 276.9380 Unit:10^9 
+ Rate of RE curtailment= 0.6356
+ Load shedding MWh= 0.0000
+ RE curtailment 10^9 CNY= 0.0000
+ Month= 1
+ Month= 2
+ Month= 3
+ Month= 4
+ Month= 5
+ Month= 6
+ Month= 7
+ Month= 8
+ Month= 9
+ Month= 10
+ Month= 11
+ Month= 12
+WET total cost = 269.6205
+ investment cost = 1.8958
+ operating cost = 267.7247 Unit:10^9 
+ Rate of RE curtailment= 0.6373
+ Load shedding MWh= 0.0000
+ RE curtailment 10^9 CNY= 0.0000
