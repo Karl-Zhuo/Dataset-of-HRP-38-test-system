@@ -6,3 +6,6 @@ run_all_op.m is the main file. The simulation for the four cases will run automa
 Yalmip, matpower toolbox, and CPLEX solver is required to run the codes.
 
 HRP-38-50 is the dataset where the renewable energy penertration is scaled up to 50%. 
+
+The related documents and explanation can be found in the following linkage:
+https://ieeexplore.ieee.org/document/8931650
