@@ -10,5 +10,5 @@ HRP-38-50 is the dataset where the renewable energy penertration is scaled up to
 The related documents and explanation can be found in the following linkage:
 https://ieeexplore.ieee.org/document/8931650
 
-errata
+errata:
 The units of generator investment cost is 10^7CNY rather than 10^4CNY
