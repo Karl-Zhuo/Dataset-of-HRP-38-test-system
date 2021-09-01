@@ -3,7 +3,7 @@ This repository includes the dataset of HRP-38 system in both .xlsx and .mat fil
 
 The codes for operation simulation applied in this paper is also provided in the dataset linkage. Based on the programs, researchers can compare their customized planning scheme with the benchmarks present in the paper. The codes can also be modified to consider new elements by researches themselves. Thus, the proposed system can facilitate comparisons and collaboration between different TEP studies worldwide.
 run_all_op.m is the main file. The simulation for the four cases will run automatically one by one after run the main file.
-Yalmip, matpower toolbox, and CPLEX solver is required to run the codes.
+Yalmip, matpower toolbox, and CPLEX solver are required to run the codes.
 
 HRP-38-50 is the dataset where the renewable energy penertration is scaled up to 50%. 
 
